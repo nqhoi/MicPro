@@ -4,16 +4,16 @@ import React from "react";
 
 const Section6 = () => {
   return (
-    <section className="main-container mb-[120px]">
-      <Heading className="mb-[30px]">
+    <section className="mobile-container lg:main-container mb-[60px] lg:mb-[120px]">
+      <Heading className="mb-6 lg:mb-[30px]">
         Our Creative <span className="-text--Primary">Team</span>
       </Heading>
-      <p className="-text--Dark-1 text-lg text-center mx-auto max-w-[481px] font-poppins mb-[70px]">
+      <p className="-text--Dark-1 text-lg text-center mx-auto lg:max-w-[481px] font-poppins mb-12 lg:mb-[70px]">
         Flowgiri is a creative and modern theme for startups, freelancers and
         creatives.
       </p>
 
-      <div className="grid grid-cols-3 gap-12 max-w-[1075px] mx-auto">
+      <div className="grid grid-cols-1 lg:grid-cols-3 gap-12 lg:max-w-[1075px] mx-auto">
         {Array(6)
           .fill(0)
           .map((item, index) => (

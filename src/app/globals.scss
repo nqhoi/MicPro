@@ -17,6 +17,10 @@
     max-width: 1210px;
     @apply mx-auto px-5;
   }
+  .mobile-container {
+    max-width: 375px;
+    @apply mx-auto px-6;
+  }
   .text-gradient {
     background: linear-gradient(90deg, #f961d8 20.98%, #1663f9 59.51%);
     background-clip: text;

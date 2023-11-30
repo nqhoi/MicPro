@@ -4,16 +4,16 @@ import React from "react";
 
 const Section7 = () => {
   return (
-    <section className="main-container mb-[120px]">
-      <Heading className="mb-[60px]">
+    <section className="mobile-container lg:main-container mb-[60px] lg:mb-[120px]">
+      <Heading className="mb-10 lg:mb-[60px]">
         OUR Design <span className="-text--Primary">BLOG</span>
       </Heading>
-      <div className="grid grid-cols-3 gap-7 ">
+      <div className="grid grid-cols-1 lg:grid-cols-3 gap-6 lg:gap-7 ">
         {Array(3)
           .fill(0)
           .map((item, index) => (
             <div key={index} className="">
-              <div className="w-full aspect-video relative mb-5">
+              <div className="w-full aspect-video relative mb-4 lg:mb-5">
                 <Image
                   className="w-full h-full object-cover "
                   src="https://images.unsplash.com/photo-1581382575275-97901c2635b7?auto=format&fit=crop&q=80&w=2787&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D"
@@ -21,7 +21,7 @@ const Section7 = () => {
                   fill
                 />
               </div>
-              <div className="flex flex-col font-poppins gap-4">
+              <div className="flex flex-col font-poppins gap-3 lg:gap-4">
                 <div className="flex items-center gap-3">
                   <div className="text-sm font-medium -bg--Orange px-2 py-1.5 rounded">
                     Design Blog

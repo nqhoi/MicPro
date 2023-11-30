@@ -15,7 +15,7 @@ const menuHeader = [
 const Header = () => {
   return (
     <header className="pt-[30px]">
-      <div className="l-container flex items-center justify-between ">
+      <div className="mobile-container lg:l-container flex items-center justify-between ">
         <Link
           href="/"
           className="flex items-center font-semibold text-xl gap-2.5"
@@ -24,7 +24,7 @@ const Header = () => {
           <span>MicPro</span>
         </Link>
 
-        <ul className="flex items-center gap-10">
+        <ul className="hidden lg:flex items-center gap-10">
           {menuHeader.map((menu) => (
             <li key={menu} className="font-medium text-base">
               <Link href="/">{menu}</Link>
@@ -32,7 +32,7 @@ const Header = () => {
           ))}
         </ul>
 
-        <Button className="-bg--Primary rounded-[30px] -text--White">
+        <Button className="hidden lg:block -bg--Primary rounded-[30px] -text--White">
           Start a Project
         </Button>
       </div>

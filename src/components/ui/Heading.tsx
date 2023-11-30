@@ -10,7 +10,7 @@ const Heading = ({ children, className = "" }: HeadingProps) => {
   return (
     <h2
       className={twMerge(
-        "text-[50px] font-bold leading-tight mx-auto text-center",
+        "text-[28px] lg:text-[50px] font-bold leading-tight mx-auto text-center",
         className
       )}
     >
